@@ -11,9 +11,8 @@ public class SimpleFactoryTest {
     @Test
     public void Test(){
 
-        SimpleFactory simpleFactory = new SimpleFactory();
-        simpleFactory.Animals("Cats").Saying();
-        simpleFactory.Animals("Dogs").Saying();
+        SimpleFactory.Animals("Cats").Saying();
+        SimpleFactory.Animals("Dogs").Saying();
 
     }
 
