@@ -10,14 +10,14 @@ import static org.junit.Assert.*;
  */
 public class IFactoryTest {
     @Test
-    public void Test(){
+    public void test(){
 
         IFactory factory = new PenFactory();
-        Product pen = factory.CreateProduct();
-        pen.ProductMessage();
+        Product pen = factory.createProduct();
+        pen.productMessage();
         factory = new BackpackFactory();
-        Product backpack = factory.CreateProduct();
-        backpack.ProductMessage();
+        Product backpack = factory.createProduct();
+        backpack.productMessage();
     }
 
 }

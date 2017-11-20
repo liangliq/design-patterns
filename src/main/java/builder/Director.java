@@ -7,10 +7,10 @@ public class Director {
 
     private AbstractBuilder builder;
 
-    public void SetBuilder(AbstractBuilder builder) {
+    public void setBuilder(AbstractBuilder builder) {
         this.builder = builder;
     }
-    public Product Construct(){
+    public Product construct(){
         builder.BuildProduct();
         return builder.getProduct();
     }

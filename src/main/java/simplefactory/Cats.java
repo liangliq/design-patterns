@@ -7,7 +7,7 @@ public class Cats extends AbstractAnimals{
 
     public  Cats() {
 
-        this.Name("Cats").Language("CatsLanguage");
+        this.setName("Cats").setLanguage("CatsLanguage");
     }
 
 

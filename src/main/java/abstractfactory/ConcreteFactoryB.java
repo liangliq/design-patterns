@@ -6,18 +6,18 @@ package abstractfactory;
 public class ConcreteFactoryB extends AbstractFactory {
 
     public ConcreteFactoryB() {
-        this.FactoryName("FactoryB");
+        this.setFactoryName("FactoryB");
     }
 
     @Override
-    public AbstractProductA CreateProductA() {
-        this.PrintMessage();
+    public AbstractProductA createProductA() {
+        this.printMessage();
         return new ConcreteProductA();
     }
 
     @Override
-    public AbstractProductB CreateProductB() {
-        this.PrintMessage();
+    public AbstractProductB createProductB() {
+        this.printMessage();
         return new ConcreteProductB();
     }
 

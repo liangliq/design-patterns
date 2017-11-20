@@ -7,17 +7,17 @@ public class Product {
     private String name;
     private int money;
 
-    public Product Name(String name) {
+    public Product setName(String name) {
         this.name = name;
         return this;
     }
 
-    public Product Money(int money) {
+    public Product setMoney(int money) {
         this.money = money;
         return this;
     }
 
-    public void Print(){
+    public void print(){
         System.out.println("Product name is " + name + " and price is " + money);
     }
 

@@ -9,15 +9,15 @@ public abstract class AbstractFactory {
 
     private String factoryName;
 
-    public AbstractFactory FactoryName(String factoryName) {
+    public AbstractFactory setFactoryName(String factoryName) {
         this.factoryName = factoryName;
         return this;
     }
 
-    public void PrintMessage(){
+    public void printMessage(){
         System.out.print("Factory name is " + factoryName+" ");
     }
-    public abstract AbstractProductA CreateProductA();
+    public abstract AbstractProductA createProductA();
 
-    public abstract AbstractProductB CreateProductB();
+    public abstract AbstractProductB createProductB();
 }

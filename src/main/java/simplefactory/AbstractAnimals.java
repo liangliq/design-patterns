@@ -7,14 +7,14 @@ public abstract class AbstractAnimals {
     private String name;
     private String language;
 
-    public void Saying(){
+    public void saying(){
         System.out.println("I am a "+name+" and using "+language);
     }
-    public AbstractAnimals Name (String name){
+    public AbstractAnimals setName (String name){
         this.name = name;
         return this;
     }
-    public AbstractAnimals Language(String language){
+    public AbstractAnimals setLanguage(String language){
         this.language = language;
         return this;
     }

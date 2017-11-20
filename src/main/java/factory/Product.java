@@ -7,16 +7,16 @@ public abstract class Product {
     private String name;
     private String factoryName;
 
-    public Product Name(String name) {
+    public Product setName(String name) {
         this.name = name;
         return this;
     }
-    public Product FactoryName(String factoryName){
+    public Product setFactoryName(String factoryName){
         this.factoryName = factoryName;
         return this;
     }
 
-    public void ProductMessage(){
+    public void productMessage(){
         System.out.println("Product name is " + name + " and factory is " + factoryName);
     }
 }

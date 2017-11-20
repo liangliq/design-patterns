@@ -7,7 +7,7 @@ public class ConcreteBuilderA extends AbstractBuilder {
 
     @Override
     public void BuildProduct() {
-        product.Name("ProductA").Money(300);
-        product.Print();
+        product.setName("ProductA").setMoney(300);
+        product.print();
     }
 }

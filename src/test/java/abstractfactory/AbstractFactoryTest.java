@@ -12,14 +12,14 @@ import static org.junit.Assert.*;
 public class AbstractFactoryTest {
 
     @Test
-    public void Test(){
+    public void test(){
 
         AbstractFactory factoryA = new ConcreteFactoryA();
         AbstractFactory factoryB = new ConcreteFactoryB();
-        factoryA.CreateProductA();
-        factoryA.CreateProductB();
-        factoryB.CreateProductA();
-        factoryB.CreateProductB();
+        factoryA.createProductA();
+        factoryA.createProductB();
+        factoryB.createProductA();
+        factoryB.createProductB();
 
     }
 

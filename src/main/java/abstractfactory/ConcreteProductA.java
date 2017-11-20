@@ -6,7 +6,7 @@ package abstractfactory;
 public class ConcreteProductA extends AbstractProductA {
 
     public ConcreteProductA() {
-        this.TypeName("A");
-        this.PrintMessage();
+        this.setTypeName("A");
+        this.printMessage();
     }
 }

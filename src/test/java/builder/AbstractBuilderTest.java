@@ -13,11 +13,11 @@ import static org.junit.Assert.*;
 public class AbstractBuilderTest {
 
     @Test
-    public void Test(){
+    public void test(){
         AbstractBuilder builder = new ConcreteBuilderA();
         Director director = new Director();
-        director.SetBuilder(builder);
-        director.Construct();
+        director.setBuilder(builder);
+        director.construct();
     }
 
 }

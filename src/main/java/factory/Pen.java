@@ -5,6 +5,6 @@ package factory;
  */
 public class Pen extends Product {
     public Pen() {
-        this.Name("pen").FactoryName("ChinesePenBlack");
+        this.setName("pen").setFactoryName("ChinesePenBlack");
     }
 }

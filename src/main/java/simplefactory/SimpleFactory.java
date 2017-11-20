@@ -5,7 +5,7 @@ package simplefactory;
  */
 public class SimpleFactory {
 
-    public static AbstractAnimals Animals(String StrAnimals) {
+    public static AbstractAnimals setAnimals(String StrAnimals) {
 
         AbstractAnimals animals = null;
         if (StrAnimals.equals("Cats")){

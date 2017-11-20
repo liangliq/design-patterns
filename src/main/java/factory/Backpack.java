@@ -5,6 +5,6 @@ package factory;
  */
 public class Backpack extends Product {
     public Backpack() {
-        this.Name("Backpack").FactoryName("Samsonite");
+        this.setName("Backpack").setFactoryName("Samsonite");
     }
 }

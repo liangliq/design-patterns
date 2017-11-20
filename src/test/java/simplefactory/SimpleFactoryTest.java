@@ -13,8 +13,8 @@ public class SimpleFactoryTest {
     @Test
     public void Test(){
 
-        SimpleFactory.Animals("Cats").Saying();
-        SimpleFactory.Animals("Dogs").Saying();
+        SimpleFactory.setAnimals("Cats").saying();
+        SimpleFactory.setAnimals("Dogs").saying();
 
     }
 

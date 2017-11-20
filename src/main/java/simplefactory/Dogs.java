@@ -7,6 +7,6 @@ public class Dogs extends AbstractAnimals{
 
     public Dogs() {
 
-        this.Name("Dogs").Language("DogsLanguage");
+        this.setName("Dogs").setLanguage("DogsLanguage");
     }
 }

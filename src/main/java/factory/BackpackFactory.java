@@ -5,7 +5,7 @@ package factory;
  */
 public class BackpackFactory implements IFactory {
 
-    public Product CreateProduct() {
+    public Product createProduct() {
         return new Backpack();
     }
 }

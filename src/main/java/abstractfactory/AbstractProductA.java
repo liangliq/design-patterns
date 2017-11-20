@@ -6,11 +6,11 @@ package abstractfactory;
 public class AbstractProductA {
     private String typeName;
 
-    public AbstractProductA TypeName(String typeName) {
+    public AbstractProductA setTypeName(String typeName) {
         this.typeName = typeName;
         return this;
     }
-    public void PrintMessage(){
+    public void printMessage(){
         System.out.println("Product type is " + typeName);
     }
 }

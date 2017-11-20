@@ -6,7 +6,7 @@ package builder;
 public abstract class AbstractBuilder {
     private String typeName;
 
-    public AbstractBuilder TypeName(String typeName) {
+    public AbstractBuilder setTypeName(String typeName) {
         this.typeName = typeName;
         return this;
     }

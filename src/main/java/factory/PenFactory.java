@@ -5,8 +5,7 @@ package factory;
  */
 public class PenFactory implements IFactory {
 
-    public Product CreateProduct() {
+    public Product createProduct() {
         return new Pen();
     }
-
 }
