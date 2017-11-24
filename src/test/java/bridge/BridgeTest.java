@@ -19,6 +19,6 @@ public class BridgeTest {
         redColor.getColor();
         redColor.setShape(circle);
         redColor.getColor();
-        
+
     }
 }
