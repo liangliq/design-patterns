@@ -14,7 +14,7 @@ public class AbstractBuilderTest {
 
     @Test
     public void test(){
-        AbstractBuilder builder = new ConcreteBuilderA();
+        AbstractBuilder builder = new ConcreteBuilderB();
         Director director = new Director();
         director.setBuilder(builder);
         director.construct();
