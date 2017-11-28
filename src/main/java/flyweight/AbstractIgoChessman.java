@@ -7,7 +7,7 @@ public abstract class AbstractIgoChessman {
 
     public abstract String getColor();
 
-    public void display(){
-        System.out.println("Color is "+this.getColor());
+    public void display(Coordinates coordinates){
+        System.out.println("Color is "+this.getColor()+" Position X:"+coordinates.getX()+" Y:"+coordinates.getY());
     }
 }
